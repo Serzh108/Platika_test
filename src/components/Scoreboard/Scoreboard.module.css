@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 360px;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #789;
+}
+
+.scoreItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100px;
+  height: 120px;
+  border: 1px solid #ee9;
+}
+
+.itemDigit {
+  width: 96%;
+  height: auto;
+  border: 1px solid rgb(163, 238, 153);
+}
+
+.bets {
+  display: inline-block;
+  width: 56px;
+  margin-right: 6px;
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.playBtn {
+  padding: 10px 30px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #55e;
+  text-transform: uppercase;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: #bbf;
+  cursor: pointer;
+}
